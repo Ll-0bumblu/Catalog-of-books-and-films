@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+    background-color: #2e2e2e;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app-logo {
+    width: 150px;
+}
+
+.logo {
+    width: 30px;
+}

@@ -1,0 +1,24 @@
+.card__list {
+    list-style: none;
+}
+
+.catalog {
+    position: relative;
+}
+
+.add-img {
+    width: 60px;
+}
+
+.add-btn {
+    background: none;
+    border: none;
+    padding: 5px 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.add-btn:hover {
+    scale: 1.1;
+}
