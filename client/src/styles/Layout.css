@@ -1,0 +1,92 @@
+.header {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.app-logo {
+  width: 80px;
+}
+
+.user-logo {
+  width: 30px;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo-link {
+  color: #e2894a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-link:hover {
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #666;
+  padding: 6px 12px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.nav-link {
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #f5f5f5;
+  color: #4a90e2;
+}
+
+.register-link {
+  background: #4a90e2;
+  color: white;
+}
+
+.register-link:hover {
+  background: #357abd;
+  color: white;
+}
+
+.logout-button {
+  padding: 6px 16px;
+  background: #e2894a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logout-button:hover:not(:disabled) {
+  background: #ff5252;
+}
